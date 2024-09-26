@@ -14,7 +14,7 @@ export default function Support() {
     { icon: <BookOpen size={24} />, title: "Knowledge Base", description: "Find answers to common questions in our comprehensive knowledge base.",href:"/features" },
     { icon: <MessageCircle size={24} />, title: "Live Chat", description: "Chat with our support team in real-time for quick assistance.",href:"/"  },
     { icon: <Phone size={24} />, title: "Phone Support", description: "Speak directly with our support team for complex issues." ,href:"/" },
-    { icon: <Mail size={24} />, title: "Email Support", description: "Send us an email and we'll get back to you within 24 hours.",href:"mailt:support@doshare.me"  },
+    { icon: <Mail size={24} />, title: "Email Support", description: "Send us an email and we'll get back to you within 24 hours.",href:"mailt0:support@doshare.me"  },
   ]
   const router =  useRouter()
 
@@ -59,7 +59,7 @@ export default function Support() {
           ))}
         </div>
 
-        <Card className="bg-white/50 backdrop-blur-sm">
+        <---Card className="bg-white/50 backdrop-blur-sm">
           <CardHeader>
             <CardTitle className="text-2xl font-bold">Contact Us</CardTitle>
           </CardHeader>
@@ -86,7 +86,7 @@ export default function Support() {
               <Button type="submit" className="w-full bg-purple-600 hover:bg-purple-700">Send Message</Button>
             </form>
           </CardContent>
-        </Card>
+        </Card--->
       </main>
 
       <footer className="bg-purple-100 py-8 mt-12">
