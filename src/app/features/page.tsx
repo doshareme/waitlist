@@ -21,7 +21,7 @@ export default function Features() {
     { icon: <Search size={24} />, title: "Powerful Search", description: "Find your files quickly with our advanced, privacy-preserving search feature." },
   ]
   const router =  useRouter()
-  const imageLoader = ({ src, width, quality }) => {
+  const imageLoader = () => {
     return `https://pbs.twimg.com/profile_images/1836278819180707840/LM9rq1gr_400x400.jpg`
   }
    
