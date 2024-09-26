@@ -17,11 +17,11 @@ export default function Home() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     console.log('Submitted email:', email)
-    fetch("https://localhost:5000/?email="+email).then((res)=>{console.log(res)})
+    fetch("https://wb.doshare.me/?email="+email).then((res)=>{console.log(res)})
     setSubmitted(true)
   }
   const router =  useRouter()
-  const imageLoader = ({ src, width, quality }) => {
+  const imageLoader = () => {
     return `https://pbs.twimg.com/profile_images/1836278819180707840/LM9rq1gr_400x400.jpg`
   }
    
