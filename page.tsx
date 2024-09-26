@@ -21,7 +21,7 @@ export default function Home() {
     setSubmitted(true)
   }
   const router =  useRouter()
-  const imageLoader = () => {
+  const imageLoader = ({ src, width, quality }) => {
     return `https://pbs.twimg.com/profile_images/1836278819180707840/LM9rq1gr_400x400.jpg`
   }
    
