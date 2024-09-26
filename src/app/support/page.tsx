@@ -59,7 +59,7 @@ export default function Support() {
           ))}
         </div>
 
-        <---Card className="bg-white/50 backdrop-blur-sm">
+        <Card className="bg-white/50 backdrop-blur-sm">
           <CardHeader>
             <CardTitle className="text-2xl font-bold">Contact Us</CardTitle>
           </CardHeader>
@@ -86,7 +86,7 @@ export default function Support() {
               <Button type="submit" className="w-full bg-purple-600 hover:bg-purple-700">Send Message</Button>
             </form>
           </CardContent>
-        </Card--->
+        </Card>
       </main>
 
       <footer className="bg-purple-100 py-8 mt-12">
