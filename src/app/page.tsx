@@ -160,9 +160,9 @@ animate={
         <div className="container mx-auto px-4 text-center text-gray-600">
           <p>&copy; 2024 Personal Cloud by DoShare. All rights reserved.</p>
           <div className="mt-4 space-x-4">
-            <a href="#" className="hover:text-purple-600">Privacy Policy</a>
-            <a href="#" className="hover:text-purple-600">Terms of Service</a>
-            <a href="#" className="hover:text-purple-600">Contact Us</a>
+            <a href="/privacy" className="hover:text-purple-600">Privacy Policy</a>
+            <a href="/terms" className="hover:text-purple-600">Terms of Service</a>
+            <a href="/support" className="hover:text-purple-600">Contact Us</a>
           </div>
         </div>
       </footer>
