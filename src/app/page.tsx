@@ -141,9 +141,10 @@ animate={
             <p className="text-2xl font-bold mb-2 text-gray-300">September 27, 2024</p>
 
               <p className="text-xl text-gray-400 mb-4">Join us for the exciting launch of something new !</p>
+              <a href="https://cdn.recorder.betaco.tech/invite.ics" target="_blank">
               <Button variant="secondary" size="lg">
                 Set a Reminder <ArrowRight className="ml-2" />
-              </Button>
+              </Button></a>
             </CardContent>
           </Card>
         </section>
