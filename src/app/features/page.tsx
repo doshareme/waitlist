@@ -66,9 +66,10 @@ export default function Features() {
               <p className="text-xl mb-4">for the exciting launch of Personal Cloud!</p>
               <p className="text-2xl font-bold mb-2">September 27, 2024</p>
               <p className="mb-4">Be the first to experience our cutting-edge features.</p>
+                            <a href="https://cdn.recorder.betaco.tech/invite.ics" target="_blank">
               <Button variant="secondary" size="lg">
                 Set a Reminder <ArrowRight className="ml-2" />
-              </Button>
+              </Button></a>
             </CardContent>
           </Card>
         </section>
