@@ -14,7 +14,7 @@ export default function Support() {
     { icon: <BookOpen size={24} />, title: "Knowledge Base", description: "Find answers to common questions in our comprehensive knowledge base.",href:"/features" },
     { icon: <MessageCircle size={24} />, title: "Live Chat", description: "Chat with our support team in real-time for quick assistance.",href:"/"  },
     { icon: <Phone size={24} />, title: "Phone Support", description: "Speak directly with our support team for complex issues." ,href:"/" },
-    { icon: <Mail size={24} />, title: "Email Support", description: "Send us an email and we'll get back to you within 24 hours.",href:"mailt:support@doshare.me"  },
+    { icon: <Mail size={24} />, title: "Email Support", description: "Send us an email and we'll get back to you within 24 hours.",href:"mailto:support@doshare.me"  },
   ]
   const router =  useRouter()
 
