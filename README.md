@@ -1,4 +1,7 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This repo contains source code for Waitlist for DoShare Personal Cloud hosted demo is at https://waitlist-omega-two.vercel.app/
+
+
+Please Note: Waitlist app was built in a day using v0.dev
 
 ## Getting Started
 
