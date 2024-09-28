@@ -141,9 +141,10 @@ animate={
             <p className="text-2xl font-bold mb-2 text-gray-300">September 27, 2024</p>
 
               <p className="text-xl text-gray-400 mb-4">Join us for the exciting launch of something new !</p>
+              <a href="https://cdn.recorder.betaco.tech/invite.ics" target="_blank">
               <Button variant="secondary" size="lg">
                 Set a Reminder <ArrowRight className="ml-2" />
-              </Button>
+              </Button></a>
             </CardContent>
           </Card>
         </section>
@@ -160,9 +161,9 @@ animate={
         <div className="container mx-auto px-4 text-center text-gray-600">
           <p>&copy; 2024 Personal Cloud by DoShare. All rights reserved.</p>
           <div className="mt-4 space-x-4">
-            <a href="#" className="hover:text-purple-600">Privacy Policy</a>
-            <a href="#" className="hover:text-purple-600">Terms of Service</a>
-            <a href="#" className="hover:text-purple-600">Contact Us</a>
+            <a href="/privacy" className="hover:text-purple-600">Privacy Policy</a>
+            <a href="/terms" className="hover:text-purple-600">Terms of Service</a>
+            <a href="/support" className="hover:text-purple-600">Contact Us</a>
           </div>
         </div>
       </footer>

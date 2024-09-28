@@ -21,7 +21,7 @@ export default function Features() {
     { icon: <Search size={24} />, title: "Powerful Search", description: "Find your files quickly with our advanced, privacy-preserving search feature." },
   ]
   const router =  useRouter()
-  const imageLoader = ({ src, width, quality }) => {
+  const imageLoader = () => {
     return `https://pbs.twimg.com/profile_images/1836278819180707840/LM9rq1gr_400x400.jpg`
   }
    
@@ -66,9 +66,10 @@ export default function Features() {
               <p className="text-xl mb-4">for the exciting launch of Personal Cloud!</p>
               <p className="text-2xl font-bold mb-2">September 27, 2024</p>
               <p className="mb-4">Be the first to experience our cutting-edge features.</p>
+                            <a href="https://cdn.recorder.betaco.tech/invite.ics" target="_blank">
               <Button variant="secondary" size="lg">
                 Set a Reminder <ArrowRight className="ml-2" />
-              </Button>
+              </Button></a>
             </CardContent>
           </Card>
         </section>
@@ -102,9 +103,9 @@ export default function Features() {
         <div className="container mx-auto px-4 text-center text-gray-600">
           <p>&copy; 2024 Personal Cloud by DoShare. All rights reserved.</p>
           <div className="mt-4 space-x-4">
-            <a href="#" className="hover:text-purple-600">Privacy Policy</a>
-            <a href="#" className="hover:text-purple-600">Terms of Service</a>
-            <a href="#" className="hover:text-purple-600">Contact Us</a>
+            <a href="/privacy" className="hover:text-purple-600">Privacy Policy</a>
+            <a href="/terms" className="hover:text-purple-600">Terms of Service</a>
+            <a href="/support" className="hover:text-purple-600">Contact Us</a>
           </div>
         </div>
       </footer>
