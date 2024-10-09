@@ -1,4 +1,4 @@
-This repo contains source code for Waitlist for DoShare Personal Cloud hosted demo is at https://waitlist-omega-two.vercel.app/
+This repo contains source code for Waitlist for DoShare Personal Cloud hosted demo is at https://waitlist.doshare.me/
 
 
 Please Note: Waitlist app was built in a day using v0.dev
