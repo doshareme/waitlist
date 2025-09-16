@@ -164,6 +164,7 @@ export default function TermsOfServiceComponent() {
                 <li>Email: <a href="mailto:legal@doshare.me" className="text-blue-600 hover:underline">legal@doshare.me</a></li>
                 <li>Mailing Address: 402A, Rejoice Tower, Sikka Karmic Greens, Sector 78, Noida - India</li>
                 <li>Support: <a href="/support" className="text-blue-600 hover:underline">https://doshare.me/support</a></li>
+                <li>Phone: <a href="tel:+919522692877">+91 9522692877</a></li>
               </ul>
             </section>
 
