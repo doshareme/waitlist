@@ -144,7 +144,7 @@ export default function TermsOfServiceComponent() {
             <section id="governing-law" className="mb-8">
               <h2 className="text-2xl font-semibold mb-4">13. Governing Law</h2>
               <p>
-                These Terms shall be governed and construed in accordance with the laws of [Your Country/State], without regard to its conflict of law provisions.
+                These Terms shall be governed and construed in accordance with the laws of Uttar Pradesh, India, without regard to its conflict of law provisions.
               </p>
             </section>
 
